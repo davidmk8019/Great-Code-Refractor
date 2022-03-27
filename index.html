@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <header>
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <ul>
@@ -21,11 +21,13 @@
                 <li>
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
+                <li><a href="submit-contact-info">Contact Us</a>
+                </li>
             </ul>
         </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
+    </header>
+    <figure></figure>
+    <section>
         <div class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
@@ -47,7 +49,7 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
+    </section>
     <div class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
@@ -71,12 +73,37 @@
             </p>
         </div>
     </div>
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+    <div id="submit-contact-info" class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    <footer>
+        <h4><center>Made with ❤️️ by Horiseon</center></h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
